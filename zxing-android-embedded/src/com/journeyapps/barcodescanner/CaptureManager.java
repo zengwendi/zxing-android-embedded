@@ -426,7 +426,7 @@ public class CaptureManager {
         activity.setResult(Activity.RESULT_OK, intent);
         closeAndFinish();
         if (scanningListener != null) {
-            scanningListener.scanResult(getBarcodeImagePath(rawResult));
+            scanningListener.scanResult(rawResult.toString());
         }
     }
 
