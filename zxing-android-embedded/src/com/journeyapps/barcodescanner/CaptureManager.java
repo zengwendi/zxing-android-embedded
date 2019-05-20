@@ -124,7 +124,7 @@ public class CaptureManager {
         }
     };
 
-    public CaptureManager(Activity activity, DecoratedBarcodeView barcodeView, ScanningListener scanningListener, boolean isFinish) {
+    public CaptureManager(Activity activity, DecoratedBarcodeView barcodeView, boolean isFinish, ScanningListener scanningListener) {
         this.activity = activity;
         this.scanningListener = scanningListener;
         this.isFinish = isFinish;
